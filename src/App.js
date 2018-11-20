@@ -4,6 +4,8 @@ import NavBar from './Nav/NavBar'
 import MainHero from './Hero/MainHero'
 
 
+
+
 class App extends Component {
   render() {
     return (
@@ -13,6 +15,7 @@ class App extends Component {
           </div>
           <div className="hero-img">
       <MainHero />
+
 
 
       </div>

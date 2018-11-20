@@ -23,11 +23,20 @@ padding-top:20px;
     background-position: center center;  
 `;
 
+let BgImage = styled.img`
+    /* margin-top: -100px; */
+    height: 1000px;
+    width: 100%;
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;  
+`;
+
 const MainHero = () => {
     return (
         <Div>
             <HeroImage alt="hero" src={require('./assets/Hero.png')}/>
-
+            <BgImage alt="hero" src={require('./assets/bg.png')}/>
             {/* <i class="far fa-arrow-alt-circle-down"></i> */}
         </Div>
     )
