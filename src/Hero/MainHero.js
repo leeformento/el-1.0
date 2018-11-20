@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-// import { AltCircleDown } from 'styled-icons/fa-regular/ArrowAltCircleDown';
+
 
 let Div = styled.div`
 
@@ -9,7 +9,10 @@ height: 100%;
 
 `;
 
-let i
+// const BlackAltCircleDown = styled(AltCircleDown)`
+//   color: red;
+// `
+
 
 let HeroImage = styled.img`
 padding-top:20px;
@@ -24,7 +27,8 @@ const MainHero = () => {
     return (
         <Div>
             <HeroImage alt="hero" src={require('./assets/Hero.png')}/>
-            <i class="far fa-arrow-alt-circle-down"></i>
+
+            {/* <i class="far fa-arrow-alt-circle-down"></i> */}
         </Div>
     )
 }
