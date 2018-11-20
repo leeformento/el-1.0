@@ -9,10 +9,6 @@ height: 100%;
 
 `;
 
-// const BlackAltCircleDown = styled(AltCircleDown)`
-//   color: red;
-// `
-
 
 let HeroImage = styled.img`
 padding-top:20px;
@@ -31,12 +27,22 @@ let BgImage = styled.img`
     background-position: center center;  
 `;
 
+let Sofaman = styled.img`
+    margin-top: -50px;
+    width: 100%;
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;  
+`;
+
 const MainHero = () => {
     return (
         <Div>
             <HeroImage alt="hero" src={require('./assets/Hero.png')}/>
             <BgImage alt="hero" src={require('./assets/bg2.svg')}/>
             {/* <i class="far fa-arrow-alt-circle-down"></i> */}
+            <Sofaman alt="hero" src={require('./assets/sofaman.jpg')}/>
+
         </Div>
     )
 }

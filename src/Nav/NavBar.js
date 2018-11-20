@@ -9,6 +9,14 @@ let Nav = styled.nav`
     margin-top: -45px;
     margin-right: 80px;
     box-sizing: border-box;
+   
+    /* @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v12/JTUSjIg1_i6t8kCHKm459W1hyyTh89ZNpQ.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+} */
     
 `;
 
@@ -25,8 +33,8 @@ let NavBar = props => {
         <   Logo />
             <Nav>
                 <NavItem> SofaX  &nbsp;</NavItem>
-                <NavItem> SofaX &nbsp;</NavItem>
-                <NavItem> SofaZ  &nbsp;</NavItem>
+                {/* <NavItem> SofaX &nbsp;</NavItem>
+                <NavItem> SofaZ  &nbsp;</NavItem> */}
             </Nav>
         </header>
     )
