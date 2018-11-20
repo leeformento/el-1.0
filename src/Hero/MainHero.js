@@ -24,8 +24,7 @@ padding-top:20px;
 `;
 
 let BgImage = styled.img`
-    /* margin-top: -100px; */
-    height: 1000px;
+    margin-top: -50px;
     width: 100%;
     background-size:     cover;                      /* <------ */
     background-repeat:   no-repeat;
@@ -36,7 +35,7 @@ const MainHero = () => {
     return (
         <Div>
             <HeroImage alt="hero" src={require('./assets/Hero.png')}/>
-            <BgImage alt="hero" src={require('./assets/bg.png')}/>
+            <BgImage alt="hero" src={require('./assets/bg2.svg')}/>
             {/* <i class="far fa-arrow-alt-circle-down"></i> */}
         </Div>
     )
