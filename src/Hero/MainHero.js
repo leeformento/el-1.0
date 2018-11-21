@@ -11,7 +11,7 @@ height: 100%;
 
 
 let HeroImage = styled.img`
-padding-top:20px;
+    padding-top:20px;
     height: 100%;
     width: 100%;
     background-size:     cover;                      /* <------ */
@@ -71,6 +71,7 @@ const MainHero = () => {
             <Div>
             <DivP> Watch the film <i class="far fa-play-circle"></i> </DivP>
             </Div>
+
 
         </Div>
     )

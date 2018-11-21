@@ -9,6 +9,7 @@ let Nav = styled.nav`
     margin-top: -45px;
     margin-right: 80px;
     box-sizing: border-box;
+    height: 25px;
    
     /* @font-face {
     font-family: 'Montserrat';
@@ -32,7 +33,7 @@ let NavBar = props => {
         <header>
         <   Logo />
             <Nav>
-                <NavItem> SofaX  &nbsp;</NavItem>
+                {/* <NavItem> SofaX  &nbsp;</NavItem> */}
                 {/* <NavItem> SofaX &nbsp;</NavItem>
                 <NavItem> SofaZ  &nbsp;</NavItem> */}
             </Nav>
